@@ -11,7 +11,7 @@ def line():
    print(f"\tY = {A}X + {B}")
    Y1 = A*X1 + B
    Y2 = A*X2 + B 
-   print(f"\nDados los siguientes puntos: ")
+   print(f"\nDados los siguientes puntos:")
    print(f"\tP1 ({X1}, {Y1})")
    print(f"\tP2 ({Y2}, {Y2})")
    distancia = ((X1-X2)**2 + (Y1-Y2)**2 )**(1/2)
